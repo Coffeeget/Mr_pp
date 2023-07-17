@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="ko">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/mylogo_w.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./js/jquery.min.1.7.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+    <script src="./js/jquery.parallax-scroll.min.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/jquery.flip.min.js"></script>
+    <script type="text/javascript" src="./js/modernizr.2.5.3.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="https://kit.fontawesome.com/b51af6ee40.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header" class="mn">
+            <div class="header">
+                <div id="top_nav">
+                    <div class="top_nav">
+                        <ul>
+                            <li><a href="#main.html"><img src="./images/logosvg.svg" width="50" alt="logo"></a></li>
+                            <li class="on" id="btn01"><a href="#header">HOME</a></li>
+                            <li id="btn02"><a href="#profile">PROFILE</a></li>
+                            <li id="btn03"><a href="#contents">PROJECT</a></li>
+                            <li id="btn04"><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slogan">
+                    <p class="type"></p>
+                </div>
+                <div class="name">
+                    <p>LeeM</p>
+                    <p>inRyel</p>
+                </div>
+            </div>
+            <nav>
+                <div id="nav">
+                    <div class="nav">
+                        <ul>
+                            <li class="on" id="btn01"><a href="#header" class="active">HOME</a></li>
+                            <li id="btn02"><a href="#profile">PROFILE</a></li>
+                            <li id="btn03"><a href="#contents">PROJECT</a></li>
+                            <li id="btn04"><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="top_btn"><a href="#none" class="top_btn"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+        <div id="profile" class="mn">
+            <div class="profile_top">
+                <h2>Profile</h2>
+            </div>
+            <div class="profile">
+                <div class="profile_cont">
+                    <figure></figure>
+                    <div class="info">
+                        <div>
+                            <h2>이민렬 | 李珉烈 | Lee min-ryel</h2>
+                            <p>1994. 10. 25 (만28세)</p>
+                        </div>
+                        <div>
+                            <p>+82 10. 4030. 3108</p>
+                            <p>dlalsfuf64@gmail.com</p>
+                        </div>
+                        <div>
+                            <h3>학력</h3>
+                            <p>2021.02 제주한라대학교 전문학사 취득</p>
+                            <p>2023.02 제주한라대학교 학사 취득</p>
+                        </div>
+                        <div>
+                            <h3>교육이수</h3>
+                            <p>2023.02 ~ 2023.07 [스마트웹&콘텐츠개발]</p>
+                            <p>UI/UX 디자인, 프론트엔드 개발자 양성과정</p>
+                        </div>
+                        <div>
+                            <h3>병역사항</h3>
+                            <p>2014.07 ~ 2016.04</p>
+                            <p>수도기계화보병사단 | 만기 전역(병장)</p>
+                        </div>
+                        <div>
+                            <h3>자격사항</h3>
+                            <p>2012.11 자동차운전면허 1종보통</p>
+                            <p>2023.04 웹디자인기능사</p>
+                        </div>
+                    </div>
+                    <div class="skill" id="progress_wrap">
+                        <ul>
+                            <li>
+                                <span class="progress_tit">HTML</span>
+                                <div class="progress_cont">
+                                    <span id="html_cnt">95</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="html_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">CSS</span>
+                                <div class="progress_cont">
+                                    <span id="css_cnt">90</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="css_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">jQuery</span>
+                                <div class="progress_cont">
+                                    <span id="jquery_cnt">80</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="jQuery_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">React</span>
+                                <div class="progress_cont">
+                                    <span id="react_cnt">70</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="react_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">github</span>
+                                <div class="progress_cont">
+                                    <span id="github_cnt">70</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="github_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">php</span>
+                                <div class="progress_cont">
+                                    <span id="php_cnt">60</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="php_bar" class="bar"></div>
+                                </div>
+                            <li>
+                                <span class="progress_tit">bootstrap</span>
+                                <div class="progress_cont">
+                                    <span id="bootstrap_cnt">80</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="bootstrap_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            </li>
+                            <li>
+                                <span class="progress_tit">figma</span>
+                                <div class="progress_cont">
+                                    <span id="figma_cnt">80</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="figma_bar" class="bar"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contents" class="mn">
+            <div id="project">
+                <div class="project">
+                    <h3>Project</h3>
+                    <div class="porject_contents">
+                        <div class="project_title">
+                            <ul>
+                                <li><a href="#CSS">CSS</a></li>
+                                <li><a href="#jQuery">jQuery</a></li>
+                                <li><a href="#responsive">responsive</a></li>
+                                <li><a href="#React" class="active">React</a></li>
+                            </ul>
+                        </div>
+                        <div id="CSS" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="css_1">
+                                            <div class="left">
+                                                <a href="https://coffeeget.github.io/project_css/" target="_blank">
+                                                    <img src="./images/css.png" width="100%" alt="CSS사이트 이미지">
+                                                </a>
+                                            </div>
+                                            <div class="right">
+                                                <h4>1st_ Selecto-Coffee</h4>
+                                                <span class="sub_tit"><strong>HTML, CSS 사용, 지도API 구현</strong></span>
+                                                <p>첫 번째 개인프로젝트로 훈련과정 초기에 HTML과 CSS만 사용하여 구현했습니다.
+                                                    프로젝트를 시작할 때에는 이해도가 낮아 밤 늦게까지 혼자 전전긍긍하며
+                                                    작업했지만 이렇게 얻은 경험으로 HTML과 CSS에 대한 이해도를 높이고
+                                                    한 걸음 더 전진하는 계기가 되었습니다. <br><br>
+                                                    ※ 해당 페이지는 PC 해상도에 최적화 되었습니다. ※
+                                                    <a href="https://coffeeget.github.io/project_css/" target="_blank">
+                                                        <img src="./images/css.png" width="100%" alt="CSS사이트 이미지">
+                                                    </a>
+                                                </p>
+                                                <div class="link">
+                                                    <span>구성</span>
+                                                    <ul>
+                                                        <li><a href="https://coffeeget.github.io/project_css/"
+                                                                target="_blank">Main</a></li>
+                                                        <li><a href="https://coffeeget.github.io/project_css/project01_sub01.html"
+                                                                target="_blank">Sub01</a>
+                                                        </li>
+                                                        <li><a href="https://coffeeget.github.io/project_css/project01_sub02.html"
+                                                                target="_blank">Sub02</a>
+                                                        </li>
+                                                        <li><a href="https://coffeeget.github.io/project_css/project01_sub03.html"
+                                                                target="_blank">Sub03</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="cross">
+                                                    <span>호환</span>
+                                                    <ol>
+                                                        <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                        <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                        <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                        <li><img src="./images/opera.png" width="40" alt="opera" style="margin-top: 2px;"></li>
+                                                        <li><img src="./images/w3c.png" width="40" alt="w3c" style="margin-top: 6px;"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="css_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="css_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="jQuery" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="jQuery_1">
+                                            <div class="left">
+                                                <a href="http://lee.dothome.co.kr/" target="_blank">
+                                                    <img src="./images/jquery.png" width="100%" alt="제이쿼리 사이트 이미지">
+                                                </a>
+                                            </div>
+                                            <div class="right">
+                                                <h4>1st_ 영주시청</h4>
+                                                <span class="sub_tit">
+                                                    <strong>HTML, CSS, FLEX, jQuery 사용</strong>
+                                                    <strong>날씨API 구현 이후 PHP 변환</strong>
+                                                </span>
+                                                <p>
+                                                    두 번째 개인프로젝트로 jQuery에 대한 이해도를 높이고자 선택하게 되었습니다.
+                                                    최대한 jQuery를 충돌 없이 많이 구현하는데에 목적을 두었으며, 완성 이후 PHP를 이용하여
+                                                    게시판, 로그인, 회원가입을 구현하였습니다. 작업을 하는 중에 충돌이 나고 생각했던 것처럼 구현되지 않아
+                                                    스트레스를 받기도 했지만 점점 성장해가면서 자신감을 얻어 '웹디자인기능사' 자격증을 취득할 수 있었고,
+                                                    완성 후 PHP를 적용시키면서 코드가 꼬이기도 하고 어려웠지만 현재는 훈련과정 중 작업한 프로젝트 중에 가장 애정하는
+                                                    작업물이 되었습니다.
+                                                    <a href="http://lee.dothome.co.kr/" target="_blank">
+                                                        <img src="./images/jquery.png" width="100%" alt="제이쿼리 사이트 이미지">
+                                                    </a>
+                                                </p>
+                                                <div class="link">
+                                                    <span>구성</span>
+                                                    <ul>
+                                                        <li><a href="http://lee.dothome.co.kr/" target="_blank">Main</a>
+                                                        </li>
+                                                        <li><a href="http://lee.dothome.co.kr/sub01.php "
+                                                                target="_blank">Sub01</a></li>
+                                                        <li><a href="http://lee.dothome.co.kr/sub02.php "
+                                                                target="_blank">Sub02</a></li>
+                                                        <li><a href="http://lee.dothome.co.kr/login_form.php "
+                                                                target="_blank">Login</a></li>
+                                                        <li><a href="http://lee.dothome.co.kr/sub03.php "
+                                                                target="_blank">게시판</a></li>
+                                                        <li><a href="http://lee.dothome.co.kr/member_form.php "
+                                                                target="_blank">회원가입</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="cross">
+                                                    <span>호환</span>
+                                                    <ol>
+                                                        <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                        <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                        <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                        <li><img src="./images/opera.png" width="40" alt="opera" style="margin-top: 2px;"></li>
+                                                        <li><img src="./images/w3c.png" width="40" alt="w3c" style="margin-top: 6px;"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="jQuery_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="jQuery_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="responsive" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="responsive_1">
+                                            <div class="left">
+                                                <a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank'))"
+                                                    tabindex="1">
+                                                    <img src="./images/responsive.png" width="100%" alt="반응형 사이트 이미지">
+                                                </a>
+                                            </div>
+                                            <div class="right">
+                                                <h4>1st_ 서울시립미술관</h4>
+                                                <span class="sub_tit"><strong>HTML, CSS, Grid, jQuery 사용</strong>
+                                                    <strong>Query 사용하여 구현</strong>
+                                                </span>
+                                                <p>세 번째 개인프로젝트로 반응형웹을 구현하기 위해 Media Query를 사용했습니다.
+                                                    처음에는 분기점에 익숙하지 않아 작업하고 검토하고 수정하고 검토하고를 여러번 반복했지만
+                                                    포기하지않고 작업하여 분기점에 대한 이해를 높일 수 있었습니다.
+                                                    <a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank'))"
+                                                        tabindex="1">
+                                                        <img src="./images/responsive.png" width="100%"
+                                                            alt="반응형 사이트 이미지">
+                                                    </a>
+                                                </p>
+                                                <div class="link">
+                                                    <span>구성</span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank'))"
+                                                                tabindex="1">Web</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank', 'width=768, height=846', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                                tabindex="1">Tablet</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank', 'width=320, height=568', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                                tabindex="1">Mobile</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="cross">
+                                                    <span>호환</span>
+                                                    <ol>
+                                                        <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                        <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                        <li><img src="./images/firefox.png" width="40" alt="firefox">
+                                                        </li>
+                                                        <li><img src="./images/opera.png" width="40" alt="opera" style="margin-top: 2px;"></li>
+                                                        <li><img src="./images/w3c.png" width="40" alt="w3c" style="margin-top: 6px;"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="responsive_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="responsive_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="React" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="react_1">
+                                            <div class="left">
+                                                <a href="javascript:void(window.open('http://healthybunny.dothome.co.kr/', '_blank', 'width=340, height=600', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                    tabindex="1">
+                                                    <img src="./images/React.png" width="50%" alt="리액트사이트이미지">
+                                                </a>
+                                                </a>
+                                            </div>
+                                            <div class="right">
+                                                <h4>1st_ 헬시버니(창작)</h4>
+                                                <span class="sub_tit"><strong>React, bootstrap 사용</strong>
+                                                </span>
+                                                <p>첫 번째 팀프로젝트로 리액트를 이용한 앱을 작업했습니다. 기획, 디자인, 개발 세 파트로 나누어 작업했으며
+                                                    팀장 겸 개발 역할을 수행하였습니다. 기획 파트 중 30% 기여를 하였고, 디자인 파트에선 컨펌 및 피드백을 수행했습니다.
+                                                    개발에서는 index, main, sub01, sub02, sub03, login 중 index와 main을 도맡아
+                                                    작업했고 sub03에는 50% 기여를 했습니다.
+                                                    이후 각자 작업한 것을 전달받아 취합하여 심하게 무너지고 중첩되는 부분을 찾아 수정하였으며, 깃허브로 배포하여
+                                                    마무리하였습니다.
+                                                    <a href="javascript:void(window.open('http://healthybunny.dothome.co.kr/', '_blank', 'width=340, height=600', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                        tabindex="1">
+                                                        <img src="./images/React.png" width="50%" alt="리액트사이트이미지">
+                                                    </a>
+                                                </p>
+                                                <div class="link">
+                                                    <span>구성</span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(window.open('http://healthybunny.dothome.co.kr/', '_blank', 'width=340, height=600', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                                tabindex="1">Mobile
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="cross">
+                                                    <span>호환</span>
+                                                    <ol>
+                                                        <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                        <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                        <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                        <li><img src="./images/opera.png" width="40" alt="opera" style="margin-top: 2px;"></li>
+                                                        <li><img src="./images/w3c.png" width="40" alt="w3c" style="margin-top: 6px;"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="react_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="react_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="mn">
+            <div class="contact_tit">
+                <h3>CONTACT</h3>
+            </div>
+            <div class="contact">
+                <div class="contact_front "></div>
+                <div class="contact_wrap">
+                    <div class="contact_txt">
+                        <p>
+                            <label>이 름</label>
+                            <span>:</span>
+                            <input type="text" value="이 민 렬">
+                        </p>
+                        <p>
+                            <label>Phone</label>
+                            <span>:</span>
+                            <input type="tel" value="01040303108">
+                            <a href="tel:010-4030-3108" title="전화걸기"><i class="fa-solid fa-phone-volume"></i></a>
+                            <a href="sms:010-4030-3108" title="문자전송"><i class="fa-solid fa-paper-plane"></i></i></a>
+                        </p>
+                        <p>
+                            <label>E-mail</label>
+                            <span>:</span>
+                            <input type="email" value="dlalsfuf64@gmail.com">
+                            <a target="_blank" href="mailto:dlalsfuf64@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </p>
+                        <p>
+                            <label>kakao</label>
+                            <span>:</span>
+                            <input type="text" value="1126611q">
+                        </p>
+                    </div>
+                    <figure><img src="./images/mylogo_w.png" alt="로고"></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

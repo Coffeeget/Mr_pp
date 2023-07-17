@@ -1,0 +1,798 @@
+@media screen and (max-width:1600px) {
+    .info_text {
+        line-height: 1.8;
+    }
+
+    .profile_cont .info {
+        margin-top: 50px;
+    }
+
+    .profile_cont .info div {
+        margin: 0 auto;
+    }
+
+
+    .profile_cont .info div h3 {
+        margin-bottom: 5px;
+        padding-left: 30px;
+    }
+
+
+    .profile_cont .info div p {
+        font-size: 15px;
+    }
+
+    .skill>ul>li {
+        line-height: 2;
+    }
+
+    .project_title ul li a {
+        line-height: 40px;
+    }
+
+    .p_c>.projects>ul>li>div>.right h4 {
+        font-size: 1.5rem;
+        top: 20px;
+    }
+
+    .p_c>.projects>ul>li>div>.right .sub_tit {
+        height: 60px;
+        font-size: 1.2rem;
+        top: 80px;
+    }
+
+    .p_c>.projects>ul>li>div>.right p {
+        width: 90%;
+        height: 200px;
+        top: 120px;
+        line-height: 25px;
+        font-size: 0.9rem;
+    }
+
+    .link span,
+    .cross span {
+        height: 30px;
+        line-height: 30px;
+        font-size: 1rem;
+    }
+
+    .link ul,
+    .cross ol {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .cross ol img {
+        width: 30px;
+    }
+
+    .p_c>.projects>ul>li>div>.right ul li a {
+        padding: 2px 7px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1rem;
+    }
+     /* contact */
+     .contact {
+        width: 400px;
+        height: 200px;
+    }
+
+    .contact_front {
+        width: 400px;
+        height: 200px;
+        background-size: 100%;
+    }
+
+    .contact_wrap {
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        background-size: 100%;
+    }
+
+    .contact_wrap figure img {
+        width: 25%;
+        height: 25%;
+        float: right;
+    }
+
+    .contact_txt {
+        width: 200px;
+        height: 100px;
+    }
+
+    .contact_txt p {
+        height: 20px;
+        line-height: 20px;
+        font-size: 0.8rem;
+        letter-spacing: -1px;
+    }
+
+    .contact_txt p label {
+        font-size: 0.8rem;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .contact_txt p span {
+        display: inline-block;
+        width: 5px;
+    }
+
+
+    .contact_txt p input {
+        display: inline-block;
+        background-color: transparent;
+        font-size: 0.8rem;
+        width: 100px;
+    }
+
+    .contact_txt p a {
+        width: 15px;
+    }
+
+    .contact_txt p a i {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:1440px) {
+    .profile_cont figure {
+        background-size: 95%;
+    }
+
+    .profile_cont .info div {
+        margin: 0 auto;
+    }
+
+    .profile_cont .info div p {
+        font-size: 14px;
+    }
+
+    .skill {
+        width: 90%;
+    }
+
+    .skill>ul>li {
+        width: 100%;
+        height: 8%;
+        line-height: 2;
+        margin: 20px auto;
+    }
+
+    .progress {
+        height: 15px;
+    }
+
+    .project {
+        width: 90vw;
+    }
+
+    .project_title ul li a {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .p_c>.projects>ul>li>div>.right h4 {
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.5rem;
+        top: 20px;
+    }
+
+    .p_c>.projects>ul>li>div>.right .sub_tit {
+        height: 50px;
+        font-size: 1.3rem;
+        text-indent: 25px;
+        top: 70px;
+    }
+
+    .p_c>.projects>ul>li>div>.right p {
+        height: 170px;
+        font-size: 0.9rem;
+        margin: 20px auto;
+        top: 130px;
+        line-height: 25px;
+    }
+
+    .link {
+        height: 40px;
+        bottom: 80px;
+    }
+
+    .cross {
+        height: 40px;
+        bottom: 30px;
+    }
+
+    .link span,
+    .cross span {
+        height: 40px;
+        line-height: 40px;
+        font-size: 1rem;
+    }
+
+    .link ul,
+    .cross ol {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .p_c>.projects>ul>li>div>.right ul li a {
+        height: 100%;
+        padding: 0 10px;
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
+
+     /* contact */
+     .contact {
+        width: 400px;
+        height: 200px;
+    }
+
+    .contact_front {
+        width: 400px;
+        height: 200px;
+        background-size: 100%;
+    }
+
+    .contact_wrap {
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        background-size: 100%;
+    }
+
+    .contact_wrap figure img {
+        width: 25%;
+        height: 25%;
+        float: right;
+    }
+
+    .contact_txt {
+        width: 200px;
+        height: 100px;
+    }
+
+    .contact_txt p {
+        height: 20px;
+        line-height: 20px;
+        font-size: 0.8rem;
+        letter-spacing: -1px;
+    }
+
+    .contact_txt p label {
+        font-size: 0.8rem;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .contact_txt p span {
+        display: inline-block;
+        width: 5px;
+    }
+
+
+    .contact_txt p input {
+        display: inline-block;
+        background-color: transparent;
+        font-size: 0.8rem;
+        width: 100px;
+    }
+
+    .contact_txt p a {
+        width: 15px;
+    }
+
+    .contact_txt p a i {
+        font-size: 0.7rem;
+    }
+
+   
+}
+
+@media screen and (max-width:1025px) {
+
+    #header .header .slogan p {
+        font-size: 2rem;
+    }
+
+    #header .header .name {
+        width: 410px;
+        height: 500px;
+        position: absolute;
+        right: -35%;
+    }
+
+    #header .header .name p {
+        font-size: 500%;
+        float: left;
+    }
+
+    #nav {
+        width: 70px;
+        right: 0;
+    }
+
+    #nav ul li a {
+        width: 10px;
+        height: 10px;
+        line-height: 10px;
+        font-size: 0.8rem;
+    }
+
+    #nav ul li.on a {
+        font-size: 0.8rem;
+        text-indent: 15px;
+    }
+
+
+    /* 프로필 */
+    .profile_top {
+        height: 15%;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+
+    .profile_top h2 {
+        font-size: 2.5rem;
+    }
+
+    .profile_cont {
+        height: 98%;
+        width: 95%;
+        grid-template-columns: 35% 30% 30%;
+        justify-content: center;
+    }
+
+    .profile_cont figure{
+        background-size: 70%;
+    }
+
+    .profile_cont .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .profile_cont .info div {
+        margin: 0 auto;
+    }
+
+    .profile_cont .info div h2 {
+        font-size: 0.9rem;
+        padding-left: 0;
+    }
+
+    .profile_cont .info div h3 {
+        font-size: 0.9rem;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .profile_cont .info div p {
+        font-size: 0.85rem;
+        height: 25px;
+        line-height: 25px;
+        padding-left: 0;
+    }
+
+    .skill>ul {
+        width: 90%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .skill>ul>li {
+        height: 12%;
+        line-height: 2;
+        margin: 5px auto;
+    }
+
+    .skill>ul>li span {
+        font-size: 0.9rem;
+    }
+
+
+    /* 프로젝트 */
+
+    .project>h3 {
+        font-size: 2.5rem;
+        height: 10%;
+        line-height: 50px;
+    }
+
+    .project_title {
+        margin: 10px auto;
+    }
+
+    .project_title ul li a {
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .p_c>.projects>ul>li>div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .p_c>.projects>ul>li>div>div {
+        width: 100%;
+    }
+
+    .p_c>.projects>ul>li>div .left {
+        display: none;
+    }
+
+    .p_c>.projects>ul>li>div>.right h4 {
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.7em;
+        top: 20px;
+    }
+
+    .p_c>.projects>ul>li>div>.right .sub_tit {
+        height: 70px;
+        font-size: 1.1rem;
+        top: 70px;
+    }
+
+    .p_c>.projects>ul>li>div>.right p {
+        width: 60%;
+        height: 150px;
+        font-size: 1rem;
+        top: 20%;
+        right: -30%;
+        line-height: 25px;
+        text-align: right;
+        float: right;
+        overflow-y: scroll;
+    }
+
+    .link {
+        height: 5%;
+        position: absolute;
+        bottom: 23%;
+    }
+
+    .cross {
+        width: 100%;
+        height: 5%;
+        position: absolute;
+        bottom: 15%;
+    }
+
+    .link span,
+    .cross span {
+        float: left;
+        height: 5%;
+        line-height: 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-indent: 20px;
+        text-align: center;
+    }
+
+    .link ul,
+    .cross ol {
+        width: 85%;
+        float: left;
+    }
+
+    .link ul li {
+        float: left;
+    }
+
+    .cross ol li {
+        float: left;
+        margin: 0 5px;
+    }
+
+    .cross ol li img {
+        width: 25px;
+    }
+
+    .p_c>.projects>ul>li>div>.right ul li a {
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 2px 5px;
+        margin: 0 5px;
+        line-height: 20px;
+        font-size: 0.8rem;
+    }
+
+    /* contact 콘택트 시작  */
+    .contact_tit h3 {
+        width: 50%;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .contact {
+        top: 50px;
+    }
+
+    .contact_txt table tr {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #header {
+        background: url(../images/photo2.png) center bottom /cover;
+    }
+
+    #header .header #top_nav {
+        display: none;
+    }
+
+    .name {
+        display: none;
+    }
+
+    #header .header .slogan {
+        transform: translateY(-120%);
+        width: 64%;
+    }
+
+    #header .header .slogan p {
+        text-align: right;
+    }
+
+    /* 네비 */
+    #nav {
+        display: none;
+    }
+
+    /* 프로필 */
+    #profile {
+        display: block;
+        height: auto;
+    }
+
+    .profile_cont {
+        margin-top: 50px;
+        display: block;
+    }
+
+    .profile_cont figure {
+        height: 80vh;
+        margin: 0 auto;
+        background-size: 60%;
+        width: 70%;
+    }
+
+    .profile_cont .info {
+        height: auto;
+        margin-bottom: 50px;
+        background-color: transparent;
+        box-shadow: none;
+        margin: 0 auto;
+    }
+
+    .profile_cont .info div {
+        width: 70%;
+        margin: 25px auto;
+    }
+
+    .skill {
+        width: 70%;
+        margin-bottom: 20px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    /* 프로젝트 */
+    #project {
+        height: calc(100% + 50px);
+    }
+
+    .project {
+        top: 0;
+    }
+
+    #project h3 {
+        height: 5%;
+    }
+
+    .porject_contents {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .project_title {
+        width: 100%;
+        transform: rotate(0);
+        transform: translateY(-120%);
+        top: 0;
+        right: 0;
+        padding: 0;
+        height: 60px;
+    }
+
+    .project_title ul{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .project_title ul li{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .project_title ul li a {
+        height: 100%;
+        font-size: 0.9rem;
+        line-height: 2;
+    }
+
+
+    .p_c>.projects>ul>li>div>.right h4 {
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.3rem;
+        top: 3%;
+        text-align: center;
+        text-indent: 0;
+
+    }
+
+    .p_c>.projects>ul>li>div>.right .sub_tit {
+        height: 50px;
+        font-size: 1rem;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #6d7f9c;
+        text-indent: 0;
+    }
+
+    .p_c>.projects>ul>li>div>.right p {
+        font-size: 0;
+        width: 80%;
+        margin: 0 auto;
+        height: 50%;
+        right: 50%;
+        overflow: hidden;
+        transform: translateX(-50%);
+    }
+
+    .p_c>.projects>ul>li>div>.right p a {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        box-sizing: border-box;
+    }
+
+    .p_c>.projects>ul>li>div>.right p a img {
+        margin: 0 auto;
+    }
+
+    .link,
+    .cross {
+        width: 95%;
+        height: 70px;
+        bottom: 55px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .cross {
+        bottom: 0;
+    }
+
+    .link span,
+    .cross span {
+        display: none;
+    }
+
+    .link ul {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .p_c>.projects>ul>li>div>.right ul li a {
+        height: 20px;
+        padding: 0 10px;
+        margin: 0 3px;
+        text-align: center;
+    }
+
+    .cross ol {
+        width: 100%;
+    }
+
+    .p_button {
+        height: 25px;
+    }
+
+    .p_button>div {
+        height: 25px;
+    }
+
+    .p_button>div a {
+        line-height: 25px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .cross {
+        height: 50px;
+    }
+
+    /* contact 콘택트 시작  */
+    
+.contact {
+    width: 200px;
+    height: 400px;
+}
+
+.contact_front {
+    width: 200px;
+    height: 400px;
+    background: url(../images/m_card_f.png) center no-repeat;
+    background-size: 100%;
+}
+
+.contact_wrap {
+    width: 200px;
+    height: 400px;
+    background: url(../images/m_card_b.png) center no-repeat;
+    background-size: 100%;
+}
+
+.contact_txt {
+    width: 200px;
+    height: 100px;
+}
+
+.contact_txt p {
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.7rem;
+    letter-spacing: -1px;
+}
+
+.contact_txt p label {
+    display: inline-block;
+    font-size: 0.7rem;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.contact_txt p span{
+    width: 5px;
+}
+
+
+.contact_txt p input {
+    font-size: 0.7rem;
+    width: 115px;
+}
+
+.contact_txt p a {
+    width: 15px;
+}
+
+.contact_txt p a i {
+    font-size: 0.7rem;
+}
+
+}
