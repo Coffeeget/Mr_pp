@@ -184,8 +184,8 @@ img {
 /* 탑버튼 */
 .top_btn {
     position: fixed;
-    right: 1%;
-    bottom: 50px !important;
+    right: 1.5%;
+    bottom: 100px !important;
     display: none;
     z-index: 9999999;
     background-color: black;
@@ -215,7 +215,7 @@ img {
     position: fixed;
     top: 50%;
     right: 3%;
-    z-index: 9999999999;
+    z-index: 9999;
 }
 
 #nav ul {
@@ -848,4 +848,10 @@ img {
 
 .contact_txt p a i {
     font-size: 0.9rem;
+}
+
+/* 채팅 */
+.widget-visible {
+
+    z-index: 99999999999;
 }
