@@ -186,7 +186,7 @@
 
     .p_c>.projects>ul>li>div>.right .sub_tit {
         height: 50px;
-        font-size: 1.3rem;
+        font-size: 1.frem;
         text-indent: 25px;
         top: 70px;
     }
@@ -564,7 +564,7 @@
     .profile_cont figure {
         height: 80vh;
         margin: 0 auto;
-        background-size: 60%;
+        background-size:110%;
         width: 70%;
     }
 
