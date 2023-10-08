@@ -583,7 +583,6 @@ img {
 }
 
 .p_c>.projects>ul>li>div>.right .sub_tit {
-    display: block;
     width: 100%;
     height: 70px;
     float: left;
